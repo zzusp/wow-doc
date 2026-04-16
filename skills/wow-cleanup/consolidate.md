@@ -34,7 +34,7 @@
 - `spec/` 下的文档实际内容是验收断言和执行结果 → 应在 `acceptance/`
 - `api/` 下的文档实际内容是需求分析和任务计划 → 应在 `spec/`
 
-**判断方法：** 按文档内容重新判断所属类型（spec/api/acceptance/tmp），与当前目录对比。
+**判断方法：** 按文档内容重新判断所属类型（spec/api/acceptance/tmp/reference/sql），与当前目录对比。
 
 **建议操作：移动** — 移动到正确的类型目录。
 

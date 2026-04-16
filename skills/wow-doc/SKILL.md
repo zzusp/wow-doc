@@ -22,7 +22,7 @@ disable-model-invocation: true
 
 ## Step 2 — 检查是否已有规则
 
-读取 CLAUDE.md 全文，判断是否已包含文档分类规范（spec/api/acceptance/tmp）：
+读取 CLAUDE.md 全文，判断是否已包含文档分类规范（spec/api/acceptance/tmp/reference/sql）：
 - 已包含 → 告知用户规则已存在，结束
 - 未包含 → 继续 Step 3
 
@@ -38,6 +38,8 @@ disable-model-invocation: true
 - `api/` — API 接口文档
 - `acceptance/` — 验收标准和结果
 - `tmp/` — 临时草稿、一次性笔记
+- `reference/` — 外部资料、调研文档、背景材料
+- `sql/` — DDL、migration、查询语句等数据库文档
 
 命名：英文全小写 + 连字符，3-6 词，内容即名称，不在文件名中重复目录类型。
 ~~~

@@ -34,7 +34,7 @@ disable-model-invocation: true
 | 重复文档 | 同一类型目录下主题高度重叠的多个文档 |
 | 过时文档 | 引用了已不存在的代码/接口/文件 |
 | 碎片文档 | 同一主题的信息分散在多个小文档中 |
-| 错误归类 | 文档内容与所在类型目录不匹配（spec/api/acceptance/tmp） |
+| 错误归类 | 文档内容与所在类型目录不匹配（spec/api/acceptance/tmp/reference/sql） |
 | 空文档 | 内容不足 5 行的文档 |
 | tmp 过期 | `tmp/` 下超过一定时间未更新的临时文档 |
 
