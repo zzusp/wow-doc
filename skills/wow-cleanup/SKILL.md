@@ -1,6 +1,7 @@
 ---
 name: wow-cleanup
-description: 整理和合并项目文档：扫描 docs/ 目录，识别重复、过时或碎片化文档，向用户展示整理建议，确认后执行合并、归档、重分类或删除操作。当用户要求整理文档或文档目录变得混乱时触发。
+description: 整理和合并项目文档：扫描 docs/ 目录，识别重复、过时或碎片化文档，向用户展示整理建议，确认后执行合并、归档、重分类或删除操作。
+disable-model-invocation: true
 ---
 
 # /wow-cleanup — 文档整合清理
