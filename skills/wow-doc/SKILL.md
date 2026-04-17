@@ -23,7 +23,7 @@ disable-model-invocation: true
 ## Step 2 — 检查是否已有规则
 
 读取 CLAUDE.md 全文，判断是否已包含文档分类规范（spec/api/acceptance/tmp/reference/sql）：
-- 已包含 → 告知用户规则已存在，结束
+- 已包含 → 展示当前规则块给用户，询问处理方式（跳过 / 合并 / 覆盖 / 取消），按用户选择执行；合并时保留用户的自定义条目和措辞，仅补充缺失部分
 - 未包含 → 继续 Step 3
 
 ## Step 3 — 追加规则块

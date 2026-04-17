@@ -24,7 +24,7 @@ reference/
 
 ## Architecture
 
-wow-doc SKILL.md 是单文件 skill，工作流为：定位 CLAUDE.md → 检查是否已有规则 → 追加规则块 → 确认。无子文件引用。
+wow-doc SKILL.md 是单文件 skill，工作流为：定位 CLAUDE.md → 检查是否已有规则（已存在则询问用户跳过 / 合并 / 覆盖 / 取消）→ 追加规则块 → 确认。无子文件引用。
 
 wow-cleanup SKILL.md 定义扫描→建议→确认→执行的流程，consolidate.md 定义具体的合并/归档/移动/删除策略。
 
